@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Discription:"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_color"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This is the main menu here you can access all the functionality of the app."
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_color"/>
+    <TextView
+        android:id="@+id/songs"
+        style="@style/CategoryStyle"
+        android:background="@color/category_songs"
+        android:text="@string/category_songs"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/category_text"
+        />
+
+    <TextView
+        android:id="@+id/playlist"
+        style="@style/CategoryStyle"
+        android:background="@color/category_playlist"
+        android:text="@string/category_playlist"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/category_text"
+      />
+
+    <TextView
+        android:id="@+id/albums"
+        style="@style/CategoryStyle"
+        android:background="@color/category_albums"
+        android:text="@string/category_albums"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/category_text"
+        />
+
+    <TextView
+        android:id="@+id/artist"
+        style="@style/CategoryStyle"
+        android:background="@color/category_artist"
+        android:text="@string/category_artist"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/category_text"
+       />
+    <TextView
+        android:id="@+id/payment"
+        style="@style/CategoryStyle"
+        android:background="@color/category_payment"
+        android:text="Payment"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:textColor="@color/category_text"
+        />
+
+
+
+</LinearLayout>

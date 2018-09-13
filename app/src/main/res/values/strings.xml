@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">My Music</string>
+
+    <!-- Category name for Song [CHAR LIMIT=20] -->
+    <string name="category_songs">Songs</string>
+
+    <!-- Category name for the vocabulary words for playList [CHAR LIMIT=20] -->
+    <string name="category_playlist">Playlists</string>
+
+    <!-- Category name for the vocabulary words for Album [CHAR LIMIT=20] -->
+    <string name="category_albums">Albums</string>
+
+    <!-- Category name for the vocabulary words for Artist [CHAR LIMIT=20] -->
+    <string name="category_artist">Artist</string>
+
+    <string name="category_payment">Import the new Adyen Android Library module.
+Go to File > Project Structure in Android Studio.
+Press the + button on the upper-left corner of the Project Structure window to add a new module.
+In the Create new module screen:
+Select Import .JAR/.AAR Package and click Next.
+In the file selector, browse to the unzipped adyen-android-library-{version}.aar file.
+Add a dependency in the app module to the Adyen library module.
+
+Go to File > Project structure in Android Studio.
+
+Select the app module in the Modules list on the left.
+
+Select the Dependencies tab.
+
+Add dependency on the + button on the lower left corner.
+Select 3.Module dependency in the drop down menu.
+
+Select the Adyen library module you have previously added in step 3.
+
+ Add dependency for appcompat-v7.
+
+Go to File > Project Structure in Android Studio.
+
+Select the app module in the Modules list on the left.
+
+Select the Dependencies tab.
+
+Click the + button on the lower left to add the dependency.
+
+Select 1. Library dependency in the drop down menu.
+
+From the Choose Library Dependency screen choose the com.android.support:appcompat-v7:{version}.
+
+Click OK.
+
+Sync project with gradle files.</string>
+
+</resources>
